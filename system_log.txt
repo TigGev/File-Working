@@ -1,0 +1,21 @@
+[INFO] 2025-05-10 12:00:01 User logged in
+[ERROR] 2025-05-10 12:05:01 Database connection failed
+[WARNING] 2025-05-10 12:06:01 High memory usage detected
+[INFO] 2025-05-10 12:10:01 User logged out
+[INFO] 2025-05-10 12:15:45 Scheduled backup started
+[INFO] 2025-05-10 12:30:00 Scheduled backup completed
+[ERROR] 2025-05-10 12:45:22 Disk write error
+[WARNING] 2025-05-10 12:50:00 Low disk space on server
+[INFO] 2025-05-10 13:00:00 New user registered
+[ERROR] 2025-05-10 13:10:30 Failed to send email
+[WARNING] 2025-05-10 13:15:10 CPU temperature high
+[INFO] 2025-05-10 13:20:00 User password changed
+[INFO] 2025-05-10 13:30:00 New connection established
+[ERROR] 2025-05-10 13:45:00 Failed to connect to database
+[INFO] 2025-05-10 14:00:00 User session timeout
+[INFO] 2025-05-10 14:15:00 Admin privileges granted
+[WARNING] 2025-05-10 14:30:00 Memory leak suspected
+[INFO] 2025-05-10 15:00:00 Daily report generated
+[INFO] 2025-05-10 15:15:00 Cache cleared successfully
+[ERROR] 2025-05-10 15:30:00 File system corruption detected
+[INFO] 2025-05-10 16:00:00 System reboot scheduled

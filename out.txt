@@ -1,0 +1,26 @@
+John Doe: 61
+Jane Smith: 65
+Bob Johnson: 47
+Alice Williams: 64
+Charlie Brown: 37
+Eve Davis: 63
+Frank Miller: 52
+Grace Lee: 67
+Hank Wilson: 42
+Ivy Martinez: 60
+Jack Taylor: 57
+Kelly Anderson: 52
+Leo Thomas: 64
+Mona Harris: 51
+Nathan Clark: 62
+Olivia Lewis: 65
+Paul Young: 54
+Quincy Hall: 47
+Rachel Allen: 64
+Steve King: 45
+Tina Scott: 65
+
+TASK2
+[INFO]: 12
+[WARNING]: 4
+[ERROR]: 5
