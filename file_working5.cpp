@@ -27,7 +27,9 @@ std::string addTwoNumbers(std::string& first, std::string& second) {
         it = s;
         str = second;
     }
-    while (it != str.rend()) {
+
+    std::cout << "SECOND LOOP" << std::endl;
+    while (it < str.rend()) {
         char ch = *it;
         if (carry) {
             int num = ((*it - '0') + carry);
@@ -40,8 +42,9 @@ std::string addTwoNumbers(std::string& first, std::string& second) {
                 ch = num + '0';
             }
         }
+        std::cout << "insert\n";
         res.insert(0, 1, ch);
-        it++;
+        ++it;
     }
     if (carry) res.insert(0, 1, '1');
     return res;
@@ -60,8 +63,11 @@ int main() {
         vec.push_back(line);
     }
     line = vec[0];
+    int i = 1;
     for(auto it = vec.begin() + 1; it != vec.end(); ++it) {
+        std::cout << "sum: " << line << std::endl;
         line = addTwoNumbers(line, *it);
+        std::cout << " aa\n";
     }
 
     std::ofstream out("./out.txt", std::ios::app);
