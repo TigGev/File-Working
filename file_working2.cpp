@@ -8,6 +8,11 @@ int main() {
     std::ofstream out("./out.txt", std::ios::app);
     out << "TASK2" << std::endl;
 
+    if (!file.is_open() || !out.is_open()) { 
+        std::cout << "Error: file openning";
+        return 1;
+    }
+
     int counts[3] = {0};
     std::string line;
     while (std::getline(file, line)) {
